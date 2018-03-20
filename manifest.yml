@@ -1,0 +1,10 @@
+applications:
+- name: jurisdication
+  memory: 512M
+  instances: 2
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  health-check-type: http
+  health-check-http-endpoint: /health
+  routes:
+  - route: jurisdication.app.io
+  timeout: 80
