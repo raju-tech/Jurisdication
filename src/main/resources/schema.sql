@@ -1,1 +1,0 @@
-CREATE TABLE CIRCLE_JURISDICATION (circleId BIGINT(10) auto_increment, zipCode VARCHAR(6), circleName VARCHAR(50));

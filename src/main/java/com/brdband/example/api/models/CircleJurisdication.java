@@ -4,11 +4,11 @@ package com.brdband.example.api.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "CIRCLE_JURISDICATION")
+@Table(name = "circle_jurisdication")
 public class CircleJurisdication {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "circleId", updatable = false, nullable = false)
     private Long circleId;
 
